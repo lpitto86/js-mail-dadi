@@ -27,3 +27,12 @@ const computerScore = diceResults[1];
 console.log('Risultati dei dadi:', diceResults);
 console.log('Punteggio del giocatore:', playerScore);
 console.log('Punteggio del computer:', computerScore);
+
+// Confronto dei punteggi e determinazione del vincitore
+if (playerScore > computerScore) {
+      console.log('Il giocatore vince!');
+  } else if (playerScore < computerScore) {
+      console.log('Il computer vince!');
+  } else {
+      console.log('È un pareggio!');
+  }
