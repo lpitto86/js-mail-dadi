@@ -10,3 +10,20 @@ if (allowedEmails.includes(userEmail)) {
 } else {
     alert('Accesso negato. La tua email non è autorizzata.');
 }
+
+// Funzione per generare un numero casuale da 1 a 6
+function rollDice() {
+      return Math.floor(Math.random() * 6) + 1;
+}
+
+// Array dei risultati dei dadi
+const diceResults = [rollDice(), rollDice()];
+
+// Punteggi del giocatore e del computer
+const playerScore = diceResults[0];
+const computerScore = diceResults[1];
+
+// Stampa i risultati
+console.log('Risultati dei dadi:', diceResults);
+console.log('Punteggio del giocatore:', playerScore);
+console.log('Punteggio del computer:', computerScore);
