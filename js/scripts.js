@@ -1,5 +1,5 @@
 // Lista di email consentite
-const allowedEmails = ['user1@example.com', 'user2@example.com', 'user3@example.com'];
+const allowedEmails = ['luca.p481@gmail.com', 'luca.p481@gmail.com', 'luca.p481@gmail.com'];
 
 // Chiedi all'utente la sua email
 const userEmail = prompt('Inserisci la tua email:');
@@ -8,7 +8,7 @@ const userEmail = prompt('Inserisci la tua email:');
 if (allowedEmails.includes(userEmail)) {
     alert('Accesso consentito. Benvenuto!');
 } else {
-    alert('Accesso negato. La tua email non è autorizzata.');
+    alert('Accesso negato!');
 }
 
 // Funzione per generare un numero casuale da 1 a 6
@@ -31,8 +31,8 @@ console.log('Punteggio del computer:', computerScore);
 // Confronto dei punteggi e determinazione del vincitore
 if (playerScore > computerScore) {
       console.log('Il giocatore vince!');
-  } else if (playerScore < computerScore) {
+} else if (playerScore < computerScore) {
       console.log('Il computer vince!');
-  } else {
+} else {
       console.log('È un pareggio!');
-  }
+}
