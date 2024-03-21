@@ -1,5 +1,5 @@
 // Lista di email consentite
-const allowedEmails = ['luca.p481@gmail.com', 'luca.p481@gmail.com', 'luca.p481@gmail.com'];
+const allowedEmails = ['email.mail@email.com', 'email.mail@email.com', 'email.mail@email.com'];
 
 // Chiedi all'utente la sua email
 const userEmail = prompt('Inserisci la tua email:');
